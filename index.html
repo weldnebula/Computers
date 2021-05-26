@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="description" content=""> 
+        <meta name="author" content=""> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Computers: Base Two</title>         
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900,900italic&amp;display=fallback"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"> 
+        <link rel="icon" href="images/favicon_02.svg" sizes="32x32" type="image/svg"> 
+    </head>     
+    <body>
+        <div id="header">
+            <table id="header-table">
+                <tr>
+                    <td id="header-left">
+                        <img id="aalogo" src="images/AllAbout_grad_c.svg"> 
+                    </td>
+                    <td id="header-center">
+                        <div id="page-title">Computers: 
+                            <span class="title-heavy">Base&nbsp;Two</span>
+                        </div>
+                    </td>
+                    <td id="header-right">Data</td>
+                </tr>
+            </table>
+        </div>
+        <div id="main">
+            <div id="leftnav">
+                <button id="leftnavclose">
+                    <img src="images/caret-square-left-solid.svg" height="32px"/>
+                    <span class="navclosetext">Close sidebar</span>
+                </button>
+                <div class="navh1">Computers</div>
+                <p>Aliquam facilisis, nibh eget posuere suscipit, arcu sapien iaculis odio, in molestie dolor lectus vitae sem. Cras id nunc mollis mi rutrum dapibus. Quisque rutrum a augue at scelerisque. Praesent faucibus ac enim vitae gravida. Sed et sodales elit. </p>
+                <p>Aliquam facilisis, nibh eget posuere suscipit, arcu sapien iaculis odio, in molestie dolor lectus vitae sem. Cras id nunc mollis mi rutrum dapibus. Quisque rutrum a augue at scelerisque. Praesent faucibus ac enim vitae gravida. Sed et sodales elit. </p>
+            </div>
+            <div id="content">
+                <button id="leftnavopen">
+                    <img src="images/caret-square-right-solid.svg" height="32px"/>
+                    <span class="navopentext">Open sidebar</span>
+                </button>
+                <img id="banner" src="images/ball-63527_1920_cr2.jpg"/>
+                <div class="heading-rule"> </div>
+                <h1>Summary</h1>
+                <p>On this page, you&apos;ll learn about:</p>
+                <ul>
+                    <li>The basics of the 
+                        <i>base two numeral system</i>
+                    </li>
+                    <li>Why base two is a key part of today&apos;s computer technology</li>
+                </ul>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td style="width: 40px; vertical-align: top; padding-top: 5px;">
+                                <img src="images/info-circle-solid.svg" width="24px"/>
+                            </td>
+                            <td><i>If you&apos;re not fond of math, don&apos;t worry. There&apos;s very little actual math in this article &mdash; just a refresher on what you probably already learned in primary school.</i></td>
+                        </tr>
+                    </table>
+                </div>
+                <p>You&apos;ll also gain insight into <i>analogues</i> &mdash; the use of the structure and behavior of one thing to represent and manipulate another thing (often an intangible thing like a concept or a relationship). This practice&nbsp;is key to the progress of the computer industry from mechanical calculators to the sophisticated devices we use today.</p>
+                <aside>
+                    <p class="aside-title">&mdash; Key Point &mdash;</p>
+                    <p>Behind everything you see a computer doing, its most essential job &ldquo;under the hood&rdquo; is to manipulate numbers using the <i>base two numeral system</i>.</p>
+                </aside>
+                <div class="heading-rule"> </div>
+                <h1>1: The main question</h1> 
+                <div class="capsule">
+                    <p class="capsule-title">
+                    Why do computers use the base two numeral system? </p>
+                    <p>Here&apos;s the quick answer:</p>
+                    <p style="margin-left: 30px; margin-top: -20px; font-weight: 600;"><span style="font-size: 1.8rem;"><b>⤷</b></span>&nbsp; <i>Because computers are made (mostly) of electric switches.</i></p>
+                    <p>So why are computers made (mostly) of electric switches?</p>
+                    <p style="margin-left: 30px; margin-top: -20px; font-weight: 600;"><span style="font-size: 1.8rem;"><b>⤷</b></span>&nbsp; <i>Because computers use the base two numeral system.</i></p>
+                </div>
+                <p>See what we did there?</p>
+                <p>These two essential elements of computer technology (base two and switches) are mutually dependent &mdash; each one requires the other in order to be useful. They&apos;re necessary for a computer to be able to perform math and store data, among other tasks.</p>
+                <p>Okay, let&apos;s find the connection between the base two numeral system and switches. First things first:</p>
+                <div class="heading-rule"> </div>
+                <h1>2: What&apos;s a numeral system?</h1>
+                <p style="">A numeral system is a writing system for describing numbers. Almost everyone in the world grew up with the <i><b>base ten</b></i> numeral system, which uses ten numerals (digits): <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and&nbsp;<code>9</code>. But the key to making a numeral system useful is <i><b>place value</b></i>.</p>
+                <aside>
+                    <p class="aside-title">&mdash; Key Point &mdash;</p>
+                    <p>You can perform the same math operations on a given set of values in any numeral system, with the same results. The actual input and output values don&apos;t change with each numeral system; they&apos;re just <i>written</i>&nbsp;differently.</p>
+                </aside>
+                <div class="heading-rule"> </div>
+                <h2>2.1: Place value</h2>
+                <details>
+                    <summary>Terminology</summary>
+                    <p>Place value is also known as <i>positional notation</i>.</p>
+                </details>                 
+                <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). By using <i><span style="font-style: normal;">place value</span></i>, the <i><b>value </b></i>of a numeral is magnified based on its <i><b>place</b></i> in a sequence of numerals.</p>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td style="width: 40px; vertical-align: top; padding-top: 5px;">
+                                <img src="images/info-circle-solid.svg" width="24px"/>
+                            </td>
+                            <td><i>Everyone &mdash; including you &mdash; uses place value every day. Understanding place value is the key to understanding numeral systems like base two.</i></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="capsule">
+                    <p class="capsule-title">Example</p>
+                    <p>Here&apos;s how we represent the number <b>twenty five</b> in base <b>ten</b>:</p>
+                    <ul>
+                        <li>The place on the right &mdash; the 
+                            <i><b>ones place</b></i> &mdash; contains the numeral 
+                            <code>5</code>.
+                        </li>
+                        <li>The next place to the left &mdash; the 
+                            <i><b>tens place</b></i> &mdash; contains the numeral 
+                            <code>2</code>, and together they look like this:
+                        </li>
+                    </ul>
+                    <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">&nbsp;25</pre>
+                    <p>The numeral <code>2</code> doesn&apos;t mean <i>two</i> here; it means <i>twenty</i> because it&apos;s in the tens place. <code>2</code> tens plus <code>5</code> ones is twenty five.</p>
+                    <div class="capsule-rule"> </div>
+                    <p>If you move the <code>2</code> to the next place on the left &mdash; the <i><b>hundreds place</b></i> &mdash; and fill the tens place with <code>0</code>, the resulting number now expresses the value <i>two hundred five</i>:</p>
+                    <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">205</pre>
+                    <p>The numeral <code>2</code> now means <i>two hundred</i> because it&apos;s in the hundreds place. <code>2</code> hundreds plus <code>0</code> tens plus <code>5</code> ones is two hundred five.</p>
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td style="width: 40px; vertical-align: top; padding-top: 5px;">
+                                <img src="images/info-circle-solid.svg" width="24px"/>
+                            </td>
+                            <td><i>In practice, people in the computer industry refer to both places and the values they contain as <b>digits</b>.&nbsp;</i></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="heading-rule"> </div>
+                <h2>2.2: Base ten</h2>
+                <details>
+                    <summary>Terminology</summary>
+                    <p>Base ten is also known as <i>decimal numbering</i>.</p>
+                </details>                 
+                <p>Humans have ten fingers, which explains why we eventually settled on our ten-digit numeral system, which is used almost everywhere (except for the occasional Roman numerals: <code>MCMLXVIII</code>). This system needs place value in order to work:</p>
+                <p><b>The <i>ones</i> place</b> <br>A number between zero and nine needs only one digit, which is said to be in the <b>ones place</b>. For example, <b>4</b> means four ones, or <b>4</b>x<b>1</b>, which equals <b>four</b>.</p>
+                <div class="heading-rule"> </div>
+                <h2>2.3: Base two</h2>
+                <details>
+                    <summary>Terminology</summary>
+                    <p>Base two is also known as <i>binary numbering</i>.</p>
+                </details>                 
+                <p>While base ten uses ten digits, base two uses just two digits &mdash;&nbsp;<code>0</code>&nbsp;and&nbsp;<code>1</code>. And just like base ten, base two needs place value in order to work:</p>
+                <p><b>The <i>ones</i> place</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but all computers are based on building large, complex things out of small, simple things.</p>
+                <div class="heading-rule"> </div>
+                <h1>3: What do switches have to do with base two?</h1>
+                <details>
+                    <summary>About switches</summary>
+                    <p>Nitpickers might say that computers have actually been made of <i>relays</i>, or <i>vacuum tubes</i>, or <i>transistors</i>, or <i>logic gates</i>. These are all just switches that can be controlled by an electric signal (which is important, but not our current topic).</p>
+                </details>
+                <p><i>ALL</i> information on a computer is ultimately represented as numbers, so a computer needs to be built out of electric devices that enable a way to store, retrieve, and manipulate those numbers.</p>
+                <p style="display: none;">In 1936, mathematician Claude Shannon&apos;s groundbreaking master&apos;s thesis&nbsp;<i>A Symbolic Analysis of Relay and Switching Circuits</i>&nbsp;drew attention to the following facts:</p>
+                <ul type="square">
+                    <li>A simple electric switch has only
+                        two possible states, 
+                        <i>OFF</i> and 
+                        <i>ON</i>.
+                    </li>
+                    <li>A base two digit has only
+                        two possible values, 
+                        <code>0</code> and 
+                        <code>1</code>.
+                    </li>
+                </ul>
+                <p>This means that we can represent the value of a base two digit using the position of a switch. When the switch is OFF, it represents <code>0</code>; when the switch is ON, it represents <code>1</code>. A switch is an <i>analogue</i> of a base two digit. (By the way, a base two digit is also known as a <b>bi</b>nary dig<b>it</b> or a <b><i>bit</i></b>.)</p>
+                <p>A line of, say, eight switches can hold an eight-digit base two number. (By the way, eight bits in a row are known as a <b><i>byte</i></b>.) Today&rsquo;s computing devices contain billions, even trillions, of such switches &mdash; computers are made (mostly) of electric switches.</p>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <td style="width: 40px; vertical-align: top; padding-top: 5px;">
+                                <img src="images/info-circle-solid.svg" width="24px"/>
+                            </td>
+                            <td><i>If simple electric switches had three different states instead of two, we might have ended up&nbsp;with computers built around base three.</i></td>
+                        </tr>
+                    </table>
+                </div>
+                <aside>
+                    <p class="aside-title">&mdash; Key Point &mdash;</p>
+                    <p>Computer technology relies heavily on analogues.</p>
+                </aside>
+            </div>
+        </div>
+        <div id="footer">
+            FOOTER
+</div>
+    </body>     
+</html>
