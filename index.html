@@ -65,7 +65,7 @@
                         </tr>
                     </table>
                 </div>
-                <p>You&apos;ll also gain insight into <i>analogues</i> &mdash; the use of the structure and behavior of one thing to represent and manipulate another thing (often an intangible thing like a concept or a relationship). This practice&nbsp;is key to the progress of the computer industry from mechanical calculators to the sophisticated devices we use today.</p>
+                <p>You&apos;ll also gain insight into <i>analogues</i> &mdash; the use of the structure and behavior of one thing to represent and manipulate another thing. This practice&nbsp;is key to the progress of the computer industry from mechanical calculators to the sophisticated devices we use today.</p>
                 <aside>
                     <p class="aside-title">&mdash; Key Point &mdash;</p>
                     <p>Behind everything you see a computer doing, its most essential job &ldquo;under the hood&rdquo; is to manipulate numbers using the <i>base two numeral system</i>.</p>
@@ -81,11 +81,11 @@
                     <p style="margin-left: 30px; margin-top: -20px; font-weight: 600;"><span style="font-size: 1.8rem;"><b>⤷</b></span>&nbsp; <i>Because computers use the base two numeral system.</i></p>
                 </div>
                 <p>See what we did there?</p>
-                <p>These two essential elements of computer technology (base two and switches) are mutually dependent &mdash; each one requires the other in order to be useful. They&apos;re necessary for a computer to be able to perform math and store data, among other tasks.</p>
+                <p>These two essential elements of computer technology (base two and switches) are mutually dependent &mdash; both originally had to be in place in order for either one to be useful. They&apos;re necessary for a computer to be able to perform math and store data, among other tasks.</p>
                 <p>Okay, let&apos;s find the connection between the base two numeral system and switches. First things first:</p>
                 <div class="heading-rule"> </div>
                 <h1>2: What&apos;s a numeral system?</h1>
-                <p style="">A numeral system is a writing system for describing numbers. Almost everyone in the world grew up with the <i><b>base ten</b></i> numeral system, which uses ten numerals (digits): <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and&nbsp;<code>9</code>. But the key to making a numeral system useful is <i><b>place value</b></i>.</p>
+                <p>A numeral system is a writing system for describing numbers. Almost everyone in the world grew up with the <i><b>base ten</b></i> numeral system, which uses ten numerals (digits): <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and&nbsp;<code>9</code>. But the key to making a numeral system useful is <i><b>place value</b></i>.</p>
                 <aside>
                     <p class="aside-title">&mdash; Key Point &mdash;</p>
                     <p>You can perform the same math operations on a given set of values in any numeral system, with the same results. The actual input and output values don&apos;t change with each numeral system; they&apos;re just <i>written</i>&nbsp;differently.</p>
@@ -94,7 +94,7 @@
                 <h2>2.1: Place value</h2>
                 <details>
                     <summary>Terminology</summary>
-                    <p>Place value is also known as <i>positional notation</i>.</p>
+                    <p>Place value is also known as <i>positional notation</i>.<br><br>People in the computer industry refer to both places and the values they contain as <i>digits</i>.&nbsp;</p>
                 </details>                 
                 <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). By using <i><span style="font-style: normal;">place value</span></i>, the <i><b>value </b></i>of a numeral is magnified based on its <i><b>place</b></i> in a sequence of numerals.</p>
                 <div class="info">
@@ -108,7 +108,7 @@
                     </table>
                 </div>
                 <div class="capsule">
-                    <p class="capsule-title">Example</p>
+                    <p class="capsule-title">Example using base ten</p>
                     <p>Here&apos;s how we represent the number <b>twenty five</b> in base <b>ten</b>:</p>
                     <ul>
                         <li>The place on the right &mdash; the 
@@ -121,21 +121,7 @@
                         </li>
                     </ul>
                     <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">&nbsp;25</pre>
-                    <p>The numeral <code>2</code> doesn&apos;t mean <i>two</i> here; it means <i>twenty</i> because it&apos;s in the tens place. <code>2</code> tens plus <code>5</code> ones is twenty five.</p>
-                    <div class="capsule-rule"> </div>
-                    <p>If you move the <code>2</code> to the next place on the left &mdash; the <i><b>hundreds place</b></i> &mdash; and fill the tens place with <code>0</code>, the resulting number now expresses the value <i>two hundred five</i>:</p>
-                    <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">205</pre>
-                    <p>The numeral <code>2</code> now means <i>two hundred</i> because it&apos;s in the hundreds place. <code>2</code> hundreds plus <code>0</code> tens plus <code>5</code> ones is two hundred five.</p>
-                </div>
-                <div class="info">
-                    <table>
-                        <tr>
-                            <td style="width: 40px; vertical-align: top; padding-top: 5px;">
-                                <img src="images/info-circle-solid.svg" width="24px"/>
-                            </td>
-                            <td><i>In practice, people in the computer industry refer to both places and the values they contain as <b>digits</b>.&nbsp;</i></td>
-                        </tr>
-                    </table>
+                    <p>The numeral <code>2</code> doesn&apos;t mean <i>two</i> here; it means <i>twenty</i> because it&apos;s in the tens place. So&nbsp;<code>2</code> tens plus <code>5</code> ones is twenty five.</p>
                 </div>
                 <div class="heading-rule"> </div>
                 <h2>2.2: Base ten</h2>
@@ -144,15 +130,21 @@
                     <p>Base ten is also known as <i>decimal numbering</i>.</p>
                 </details>                 
                 <p>Humans have ten fingers, which explains why we eventually settled on our ten-digit numeral system, which is used almost everywhere (except for the occasional Roman numerals: <code>MCMLXVIII</code>). The base ten system needs place value in order to work:</p>
-                <p><b>The <i>ones</i> place</b> <br>A number between zero and nine needs only one digit, which is said to be in the <b>ones place</b>. For example, <b>4</b> means four ones, or <b>4</b>x<b>1</b>, which equals <b>four</b>.</p>
+                <p><b>The <i>ones</i> place</b> <br>A number between zero and nine needs only one digit, which is said to be in the <b>ones place</b>, where a digit&apos;s value is just what it appears to be. For example, the digit&nbsp;<code>4</code> means&nbsp;<b>four</b>.</p>
+                <p><b>The <i>tens</i> place</b> <br>To represent the next number after nine (and up to ninety nine), we add a place to its left: the <b>tens place</b>, where you can write a second digit that&rsquo;s worth ten times more than it would be worth in the ones place. For example, <code>74</code> means seven tens (<code>7</code>x<code>10</code>) plus four ones (<code>4</code>x<code>1</code>), which equals <b>seventy four</b>.<br></p>
+                <p><b>The <i>hundreds</i> place</b> <br>A number between zero and nine needs only one digit, which is said to be in the <b>ones place</b>. For example, <b>4</b> means four ones, or <b>4</b>x<b>1</b>, which equals <b>four</b>.</p>
+                <p><b>And so on...</b> <br>A number between zero and nine needs only one digit, which is said to be in the <b>ones place</b>. For example, <b>4</b> means four ones, or <b>4</b>x<b>1</b>, which equals <b>four</b>.</p>
                 <div class="heading-rule"> </div>
                 <h2>2.3: Base two</h2>
                 <details>
                     <summary>Terminology</summary>
                     <p>Base two is also known as <i>binary numbering</i>.</p>
                 </details>                 
-                <p>While base ten uses ten digits, base two uses just two digits &mdash;&nbsp;<code>0</code>&nbsp;and&nbsp;<code>1</code>. And just like base ten, base two needs place value in order to work:</p>
+                <p>While base ten uses ten digits, base two uses just two digits:&nbsp;<code>0</code>&nbsp;and&nbsp;<code>1</code>. And just like base ten, base two needs place value in order to work:</p>
                 <p><b>The <i>ones</i> place</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
+                <p><b>The <i>twos</i> place</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
+                <p><b>The <i>fours</i> place</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
+                <p><b>And so on...</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
                 <div class="heading-rule"> </div>
                 <h1>3: What do switches have to do with base two?</h1>
                 <details>
