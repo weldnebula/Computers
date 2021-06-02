@@ -122,7 +122,7 @@ ul {
 
 /* *********** HEADER ************ */
 #header {
-    position: -webkit-sticky;                                                      /* Safari */
+    position: -webkit-sticky;                                                          /* Safari */
     position: sticky;
     top: 0;
     width: 100%;
@@ -283,7 +283,7 @@ aside {
 
 .capsule {
     margin: 30px 0px;
-    padding: 20px 40px 10px 40px;                                                      /* background-color: #eaebe3; */
+    padding: 20px 40px 10px 40px;                                                          /* background-color: #eaebe3; */
     /* background-color: #005f76; */
     background-color: #004758;
     border: 1px solid #004758;
@@ -301,8 +301,8 @@ aside {
 details {
     width: 180px;
     float: right;
-    margin: 10px 20px 5px 15px;
-    padding: 5px 10px;                                                      /* background-color: #c4ff4c; */
+    margin: 10px 0px 5px 15px;
+    padding: 5px 10px;                                                          /* background-color: #c4ff4c; */
     background-color: #dfff9f;
     border-radius: 6px;
     box-shadow: 2px 2px 6px #aaaaaa;
