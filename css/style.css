@@ -55,7 +55,7 @@ pre {
 
 #page-title {
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
     font-style: none;
     letter-spacing: 0.5px;
     line-height: 1.4rem;
@@ -122,7 +122,7 @@ ul {
 
 /* *********** HEADER ************ */
 #header {
-    position: -webkit-sticky;                                                          /* Safari */
+    position: -webkit-sticky;                                                                          /* Safari */
     position: sticky;
     top: 0;
     width: 100%;
@@ -283,12 +283,17 @@ aside {
 
 .capsule {
     margin: 30px 0px;
-    padding: 20px 40px 10px 40px;                                                          /* background-color: #eaebe3; */
+    padding: 20px 40px 10px 40px;                                                                          /* background-color: #eaebe3; */
     /* background-color: #005f76; */
     background-color: #004050;
     border: 1px solid #004050;
     color: #ffffff;
     box-shadow: 2px 2px 6px #aaaaaa;
+}
+
+.capsule code {
+    color: #ffc9c9;
+    background-color: black;
 }
 
 .capsule-title {
@@ -302,7 +307,7 @@ details {
     width: 180px;
     float: right;
     margin: 10px 0px 5px 15px;
-    padding: 5px 10px;                                                          /* background-color: #c4ff4c; */
+    padding: 5px 10px;                                                                          /* background-color: #c4ff4c; */
     background-color: #dfff9f;
     border-radius: 6px;
     box-shadow: 2px 2px 6px #aaaaaa;
