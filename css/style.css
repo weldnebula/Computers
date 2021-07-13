@@ -68,13 +68,15 @@ pre {
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-left: -20px;
     font-size: 2.0rem;
     line-height: 2.5rem;
 }
 
 h2 {
-    margin-top: 5px;
+    margin: 10px 0px 15px -20px;
+    margin-top: 10px;
     margin-bottom: 15px;
     font-size: 1.7rem;
     line-height: 1.8rem;
@@ -105,10 +107,20 @@ ul {
     margin-left: -1.2em;
 }
 
+dt {
+    margin-top: 12px;
+    font-weight: 600;
+    color: #005f76;
+}
+
+dd {
+    margin-left: 16px;
+    margin-top: 0px;
+}
+
 .heading-rule {
     height: 2px;
-    margin-top: 60px;
-    margin-bottom: 0px;
+    margin: 60px 0px 0px -20px;
     background-image: linear-gradient(to right, #005f76, white, white);
 }
 
@@ -122,7 +134,7 @@ ul {
 
 /* *********** HEADER ************ */
 #header {
-    position: -webkit-sticky;                                                                          /* Safari */
+    position: -webkit-sticky;                                                                                                                              /* Safari */
     position: sticky;
     top: 0;
     width: 100%;
@@ -178,6 +190,7 @@ ul {
     padding: 0px;
     border: 0px;
     background-color: #ffffff;
+    display: none;
 }
 
 .navopentext {
@@ -283,7 +296,7 @@ aside {
 
 .capsule {
     margin: 30px 0px;
-    padding: 20px 40px 10px 40px;                                                                          /* background-color: #eaebe3; */
+    padding: 20px 40px 10px 40px;                                                                                                                              /* background-color: #eaebe3; */
     /* background-color: #005f76; */
     background-color: #004050;
     border: 1px solid #004050;
@@ -306,8 +319,8 @@ aside {
 details {
     width: 180px;
     float: right;
-    margin: 10px 0px 5px 15px;
-    padding: 5px 10px;                                                                          /* background-color: #c4ff4c; */
+    margin: 10px -20px 5px 15px;
+    padding: 5px 10px;                                                                                                                              /* background-color: #c4ff4c; */
     background-color: #dfff9f;
     border-radius: 6px;
     box-shadow: 2px 2px 6px #aaaaaa;
