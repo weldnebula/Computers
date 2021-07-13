@@ -89,15 +89,22 @@
                 <p>The key to making a modern numeral system useful is <i><b>place value</b></i>.</p>
                 <aside>
                     <p class="aside-title">&mdash; Key Point &mdash;</p>
-                    <p>You can perform the same math operations on a given set of values in any numeral system, with the same results. The actual input and output values don&apos;t change with each numeral system; they&apos;re just <i>written</i> differently.</p>
+                    <p>You can perform the same math operations in any numeral system, with the same results. The actual input and output values don&apos;t change with each numeral system; they&apos;re just <i>written</i> differently.</p>
                 </aside>
                 <div class="heading-rule"> </div>
                 <h2>2.1: Place value</h2>
                 <details>
                     <summary>Terminology</summary>
-                    <p>Place value is also known as <i>positional notation</i>.<br><br>People in the computer industry refer to both places and the values they contain as <i>digits</i>. </p>
+                    <p>Place value is also known as <i>positional notation</i>.<br><br>People in the computer industry refer to both places and the numerals they contain as <i>digits</i>.</p>
                 </details>                 
-                <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). By using <i>place value</i>, the <i><b>value </b></i>of a numeral is magnified based on its <i><b>place</b></i> in a sequence of numerals.</p>
+                <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). By using <i>place value</i>, the <i><b>value </b></i>of a numeral is magnified according to its <i><b>place</b></i> in a sequence of numerals.</p>
+                <div class="capsule">
+                    <p class="capsule-title">Example using base ten</p>
+                    <p>Consider the following number:</p>
+                    <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">&nbsp;62</pre>
+                    <p>You know this number is <b>sixty two</b> because the numeral <code>6</code> indicates <i>how many tens</i> the number has.</p>
+                    <p>So, <code>6</code> tens is sixty. Add <code>2</code> and you get sixty two. </p>
+                </div>
                 <div class="info">
                     <table>
                         <tr>
@@ -108,30 +115,37 @@
                         </tr>
                     </table>
                 </div>
-                <div class="capsule">
-                    <p class="capsule-title">Example using base ten</p>
-                    <p>Consider the following number:</p>
-                    <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">&nbsp;62</pre>
-                    <p>You know this number is <b>sixty two</b> because the numeral <code>6</code> is in the <i><b>tens place</b></i> (the second spot from the right), and it indicates <i>how many tens</i> the number has. </p>
-                    <p>So, <code>6</code> tens is sixty. Add <code>2</code> and you get sixty two. </p>
-                </div>
-                <p>If this example seems obvious, that&apos;s because it is. We had to clarify how it works so we can apply the same concept to base two (or any other base we need to use). Let&apos;s start with the a closer look at base ten:</p>
+                <p>If this example seems obvious, that&apos;s because it is. We have to clarify how it works in familiar base ten so we can apply the same concept to base two (or any other base we need to use). Here&apos;s a closer look at place value in base ten:</p>
                 <div class="heading-rule"> </div>
-                <h2>2.2: Base ten</h2>
+                <h2>2.2: Base ten place value</h2>
                 <details>
                     <summary>Terminology</summary>
                     <p>Base ten is also known as <i>decimal numbering</i>.</p>
                 </details>                 
-                <p>Humans have ten fingers, which explains why we eventually settled on our ten-digit numeral system, which uses ten numerals (digits): <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and <code>9</code>. Base ten is used almost everywhere (except for the occasional Roman numerals like <code>MCMLXVIII</code>). The base ten system needs place value in order to work:</p> 
-                <p><b>The <i>ones</i> place</b> <br>A value between zero and nine needs only one digit, which is said to be in the <b>ones place</b>, where a digit&apos;s value is just what it appears to be.</p>
-                <p>For example, the digit <code>4</code> means <b>four</b>.</p>
-                <p><b>The <i>tens</i> place</b> <br>To represent the next number after nine, we add a place to its left: the <b>tens place</b>, where you can write a second digit that&rsquo;s worth <i>ten times more</i> than it would be worth in the ones place. </p>
-                <p>For example, <code>71</code> means <b>seven tens</b> plus a single <b>one</b>, which equals <b>seventy one</b>.</p>
-                <p><b>The <i>hundreds</i> place</b> <br>To represent the next number after ninety nine, we add another place to the left: the <b>hundreds place</b>, where you can write a third digit that&apos;s worth <i>one hundred times more</i> than it would be worth in the ones place. </p>
-                <p>For example, <code>274</code> means <b>two hundreds</b> plus <b>seven tens</b> plus <b>four ones</b>, which equals <b>two hundred seventy four</b>.</p>
-                <p><b>And so on...</b> <br>Each additional digit you add to the left is worth ten times the digit to its right.</p>
+                <p>Humans have ten fingers, which explains why we eventually settled on our ten-digit numeral system with the digits: <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and <code>9</code>. Base ten is used almost everywhere (except for the occasional Roman numerals like <code>MCMLXVIII</code>). The base ten system needs place value in order to work:</p> 
+                <dl>
+                    <dt>The <i>ones</i> place</dt>
+                    <dd>
+                        <p>A value between zero and nine needs only one digit, which is said to be in the  <b>ones place</b>, where a digit&apos;s value is just what it appears to be.</p>
+                        <p>For example, the digit  <code>4</code> means  <b>four</b>. With one digit, you can count up to nine.</p>
+                    </dd>
+                    <dt>The <i>tens</i> place</dt>
+                    <dd>
+                        <p>To represent the next number after nine, we add a place to its left: the <b>tens place</b>, where you can write a second digit that&rsquo;s worth <i>ten times more</i> than it would be worth in the ones place.</p>
+                        <p>For example, <code>71</code> means <b>seven tens</b> plus a single <b>one</b>, which equals <b>seventy one</b>. With two digits, you can count up to ninety nine.</p>
+                    </dd>
+                    <dt>The <i>hundreds</i> place</dt>
+                    <dd>
+                        <p>To represent the next number after ninety nine, we add another place to the left: the <b>hundreds place</b>, where you can write a third digit that&apos;s worth <i>one hundred times more</i> than it would be worth in the ones place. </p>
+                        <p>For example, <code>274</code> means <b>two hundreds</b> plus <b>seven tens</b> plus <b>four ones</b>, which equals <b>two hundred seventy four</b>. With three digits, you can count up to nine hundred ninety nine.</p>
+                    </dd>
+                    <dt>And so on...</dt>
+                    <dd>
+                        <p>Each new digit you add to the left is worth ten times the digit to its right.</p>
+                    </dd>
+                </dl>
                 <div class="heading-rule"> </div>
-                <h2>2.3: Base two</h2>
+                <h2>2.3: Base two place value</h2>
                 <details>
                     <summary>Terminology</summary>
                     <p>Base two is also known as <i>binary numbering</i>.</p>
