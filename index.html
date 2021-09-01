@@ -47,7 +47,7 @@
                 </button>
                 <img id="banner" src="images/ball-63527_1920_cr2.jpg"/>
                 <div class="heading-rule"> </div>
-                <h1>Summary</h1>
+                <h1>Introduction</h1>
                 <p>On this page, you&apos;ll learn about:</p>
                 <ul>
                     <li>The basics of the 
@@ -65,7 +65,7 @@
                         </tr>
                     </table>
                 </div>
-                <p>You&apos;ll also gain insight into <i>analogues</i> &mdash; the use of the structure and behavior of one thing to represent and manipulate another thing. This practice is key to the progress of the computer industry from mechanical calculators to the sophisticated devices we use today.</p>
+                <p>You&apos;ll also gain insight into <i>analogues</i> &mdash; the use of the structure and behavior of one thing to represent and manipulate another thing. This practice is key to the evolution of the computer industry from mechanical calculators to the sophisticated devices we use today.</p>
                 <aside>
                     <p class="aside-title">&mdash; Key Point &mdash;</p>
                     <p>Behind everything you see a computer doing, its most essential job &ldquo;under the hood&rdquo; is to manipulate numbers using the <i>base two numeral system</i>.</p>
@@ -85,8 +85,10 @@
                 <p>Okay, let&apos;s find the connection between the base two numeral system and switches. First things first:</p>
                 <div class="heading-rule"> </div>
                 <h1>2: What&apos;s a numeral system?</h1>
-                <p>A numeral system is a writing system for describing numbers. Almost everyone in the world grew up with the <i><b>base ten</b></i> numeral system. </p>
-                <p>The key to making a modern numeral system useful is <i><b>place value</b></i>.</p>
+                <p>A numeral system is a writing system for describing numbers. </p>
+                <p>Humans have ten fingers, which explains why we eventually settled on <b><i>base ten</i></b>, our ten-digit numeral system with the digits: <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and <code>9</code>. The base ten numeral system is used almost everywhere (except for the occasional Roman numerals like <code>MCMLXVIII</code>).</p>
+                <p>But you could instead do your math in, say, <b><i>base five</i></b> with the digits <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, and <code>4</code>. Of course, regular folks have no need for base five, but <b><i>base two</i></b> is worth knowing about.</p>
+                <p>Conveniently, all modern numeral systems work the same way &mdash; they incorporate the concept of&nbsp;<i><b>place value</b></i>.</p>
                 <aside>
                     <p class="aside-title">&mdash; Key Point &mdash;</p>
                     <p>You can perform the same math operations in any numeral system, with the same results. The actual input and output values don&apos;t change with each numeral system; they&apos;re just <i>written</i> differently.</p>
@@ -97,12 +99,12 @@
                     <summary>Terminology</summary>
                     <p>Place value is also known as <i>positional notation</i>.<br><br>People in the computer industry refer to both places and the numerals they contain as <i>digits</i>.</p>
                 </details>                 
-                <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). By using <i>place value</i>, the <i><b>value </b></i>of a numeral is magnified according to its <i><b>place</b></i> in a sequence of numerals.</p>
+                <p>A modern numeral system has to be able to represent numbers greater than its highest value numeral (which in base ten is <code>9</code>). Due to&nbsp;<i><b>place value</b></i>, the <i><b>value </b></i>of a numeral is magnified according to its <i><b>place</b></i> in a sequence of numerals.</p> 
                 <div class="capsule">
                     <p class="capsule-title">Example using base ten</p>
                     <p>Consider the following number:</p>
                     <pre style="width: 100px; margin-left: 10%; padding: 5px 15px; text-align: right; font-size: 1.5rem;">&nbsp;62</pre>
-                    <p>You know this number is <b>sixty two</b> because the numeral <code>6</code> indicates <i>how many tens</i> the number has.</p>
+                    <p>You know this number is <b>sixty two</b> because the numeral <code>6</code> indicates <i>how many tens</i> the number has.&nbsp;</p>
                     <p>So, <code>6</code> tens is sixty. Add <code>2</code> and you get sixty two. </p>
                 </div>
                 <div class="info">
@@ -111,37 +113,37 @@
                             <td style="width: 40px; vertical-align: top; padding-top: 5px;">
                                 <img src="images/info-circle-solid.svg" width="24px"/>
                             </td>
-                            <td><i>Everyone &mdash; including you &mdash; uses place value every day. Understanding place value is the key to understanding numeral systems like base two.</i></td>
+                            <td><i>Everyone &mdash; including you &mdash; uses place value every day, every time you think about a number. Understanding place value is the key to understanding numeral systems like base two.</i></td>
                         </tr>
                     </table>
                 </div>
-                <p>If this example seems obvious, that&apos;s because it is. We have to clarify how it works in familiar base ten so we can apply the same concept to base two (or any other base we need to use). Here&apos;s a closer look at place value in base ten:</p>
+                <p>If this example seems obvious, that&apos;s because it is. We have to clarify how it works in familiar base ten before we can apply the same concept to describe other bases, like base five.</p>
                 <div class="heading-rule"> </div>
-                <h2>2.2: Base ten place value</h2>
+                <h2>2.2: Base five place value</h2>
                 <details>
                     <summary>Terminology</summary>
                     <p>Base ten is also known as <i>decimal numbering</i>.</p>
                 </details>                 
-                <p>Humans have ten fingers, which explains why we eventually settled on our ten-digit numeral system with the digits: <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, <code>6</code>, <code>7</code>, <code>8</code>, and <code>9</code>. Base ten is used almost everywhere (except for the occasional Roman numerals like <code>MCMLXVIII</code>). The base ten system needs place value in order to work:</p> 
+                <p>You can use any positive integer as a base, as long as you have a symbol for each digit. Base five has the digits <code>0</code>, <code>1</code>, <code>2</code>, <code>3</code>, and <code>4</code>.</p> 
                 <dl>
                     <dt>The <i>ones</i> place</dt>
                     <dd>
-                        <p>A value between zero and nine needs only one digit, which is said to be in the  <b>ones place</b>, where a digit&apos;s value is just what it appears to be.</p>
-                        <p>For example, the digit  <code>4</code> means  <b>four</b>. With one digit, you can count up to nine.</p>
+                        <p>A value between zero and four needs only one digit, which is said to be in the  <b>ones place</b>, where a digit&apos;s value is just what it appears to be.</p>
+                        <p>For example, the digit  <code>2</code> means  <b>two</b>. With one digit, you can count up to four.</p>
                     </dd>
-                    <dt>The <i>tens</i> place</dt>
+                    <dt>The <i>fives</i> place</dt>
                     <dd>
-                        <p>To represent the next number after nine, we add a place to its left: the <b>tens place</b>, where you can write a second digit that&rsquo;s worth <i>ten times more</i> than it would be worth in the ones place.</p>
-                        <p>For example, <code>71</code> means <b>seven tens</b> plus a single <b>one</b>, which equals <b>seventy one</b>. With two digits, you can count up to ninety nine.</p>
+                        <p>To represent the next number after four, we add a place to its left: the <b>fives place</b>, where you can write a second digit that&rsquo;s worth <i>five times</i> what it would be worth in the ones place.</p>
+                        <p>For example, <code>31</code> means three&nbsp;<b>fives</b> plus a single <b>one</b>, which equals <b>sixteen</b>. With two digits, you can count up to twenty four (expressed as <code>44</code>).</p>
                     </dd>
-                    <dt>The <i>hundreds</i> place</dt>
+                    <dt>The <i>twenty-fives</i> place</dt>
                     <dd>
-                        <p>To represent the next number after ninety nine, we add another place to the left: the <b>hundreds place</b>, where you can write a third digit that&apos;s worth <i>one hundred times more</i> than it would be worth in the ones place. </p>
-                        <p>For example, <code>274</code> means <b>two hundreds</b> plus <b>seven tens</b> plus <b>four ones</b>, which equals <b>two hundred seventy four</b>. With three digits, you can count up to nine hundred ninety nine.</p>
+                        <p>To represent the next number after forty four, we add another place to the left: the <b>twenty-fives place</b>, where you can write a third digit that&apos;s worth <i>twenty five times</i>&nbsp;what it would be worth in the ones place.</p>
+                        <p>For example, <code>214</code> means two&nbsp;<b>twenty-fives</b> plus a single&nbsp;<b>five</b> plus four&nbsp;<b>ones</b>, which equals <b>fifty nine</b>. With three digits, you can count up to one hundred twenty four (expressed as <code>444</code>).</p>
                     </dd>
                     <dt>And so on...</dt>
                     <dd>
-                        <p>Each new digit you add to the left is worth ten times the digit to its right.</p>
+                        <p>Each new digit you add to the left is worth five times the value of the digit to its right.</p>
                     </dd>
                 </dl>
                 <div class="heading-rule"> </div>
@@ -151,12 +153,27 @@
                     <p>Base two is also known as <i>binary numbering</i>.</p>
                 </details>                 
                 <p>While base ten uses ten digits, base two uses just two digits: <code>0</code> and <code>1</code>. And just like base ten, base two needs place value in order to work:</p>
-                <p><b>The <i>ones</i> place</b> <br>A value of zero or one needs only one digit, which is said to be in the <b>ones place</b>. Two values might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
-                <p>For example, the digit <code>1</code> means <b>one</b>.</p>
-                <p><b>The <i>twos</i> place</b> <br>To represent the next number after one, we add a place to its left: the <b>twos place</b>, where you can write a second digit that&rsquo;s worth <i>twice</i> what it would be worth in the ones place.</p>
-                <p>For example, <code>11</code> means a single <b>two</b> plus a single <b>one</b>, which equals <b>three</b>.<br></p>
-                <p><b>The <i>fours</i> place</b> <br>To represent the next number after ninety nine, we add another place to the left: the <b>hundreds place</b>, where you can write a third digit that&apos;s worth <i>one hundred times more</i> than it would be worth in the ones place. </p>
-                <p><b>And so on...</b> <br>One digit can represent only zero or one; this is the <b>ones place</b>. It might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
+                <dl>
+                    <dt>The <i>ones</i> place</dt>
+                    <dd>
+                        <p> A value of zero or one needs only one digit, which is said to be in the <b>ones place</b>. Two values might not seem like much, but computers are created by building large, complex things out of small, simple things.</p>
+                        <p>For example, the digit <code>1</code> means <b>one</b>.</p>
+                    </dd>
+                    <dt>The <i>twos</i> place</dt>
+                    <dd>
+                        <p> To represent the next number after one, we add a place to its left: the <b>twos place</b>, where you can write a second digit that&rsquo;s worth <i>twice</i> what it would be worth in the ones place.</p>
+                        <p>For example, <code>11</code> means a single <b>two</b> plus a single <b>one</b>, which equals <b>three</b>. With two digits, you can count from zero to three.</p>
+                    </dd>
+                    <dt><b spellcheck="false" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="15" medium-editor-index="70a619e4-bf14-0802-5d20-51050652d725" data-placeholder="Type your text" data-medium-focused="true">The <i>fours</i> place</b></dt>
+                    <dd>
+                        <p> To represent the next number after three, we add another place to the left: the <b>fours place</b>, where you can write a third digit that&apos;s worth <i>four times</i>&nbsp;what it would be worth in the ones place.</p>
+                        <p>For example, <code>101</code> means a single <b>four</b> plus a single <b>one</b>, which equals <b>five</b>. With three digits, you can count from zero to seven (expressed as <code>111</code>).</p>
+                    </dd>
+                    <dt><b spellcheck="false" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="17" medium-editor-index="666e3e91-ceab-1c83-a145-2db41e01282d" data-placeholder="Type your text" data-medium-focused="true">And so on...</b></dt>
+                    <dd>
+                        <p>Each new digit you add to the left is worth twice the value of the digit to its right.</p>
+                    </dd>
+                </dl>
                 <div class="heading-rule"> </div>
                 <h1>3: What do switches have to do with base two?</h1>
                 <details>
@@ -178,7 +195,7 @@
                     </li>
                 </ul>
                 <p>This means that we can represent the value of a base two digit using the position of a switch. When the switch is OFF, it represents <code>0</code>; when the switch is ON, it represents <code>1</code>. Thus a switch is an <i>analogue</i> of a base two digit. (By the way, a base two digit is also known as a <b>bi</b>nary dig<b>it</b> or a <b><i>bit</i></b>.)</p>
-                <p>A line of eight switches/digits/bits is called a <b><i>byte</i></b>. It can hold an eight-digit base two number &mdash; anything from <code>00000000</code> to <code>11111111</code> (one hundred twenty seven, count &apos;em). Every one of today&rsquo;s computing devices contains billions, even trillions, of bytes &mdash; remember, computers are made (mostly) of electric switches, which perfectly represent base two numbering and math.</p>
+                <p>A line of eight switches/digits/bits is called a <b><i>byte</i></b>. It can hold an eight-digit base two number &mdash; anything from <code>00000000</code> to <code>11111111</code> (two hundred fifty five, count &apos;em). Every one of today&rsquo;s computing devices contains billions, even trillions, of bytes &mdash; remember, computers are made (mostly) of electric switches, which perfectly represent base two numbering and math.</p>
                 <div class="info">
                     <table>
                         <tr>
