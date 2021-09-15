@@ -110,7 +110,7 @@ ul {
 dt {
     margin-top: 12px;
     font-weight: 700;
-    color: #005f76;
+    color: #002252;
 }
 
 dd {
@@ -123,7 +123,7 @@ dd {
     margin: 60px 0px 0px -20px;
 
     /* background-image: linear-gradient(to right, #005f76 0%, #005f76 50%, white 100%); */
-    background-image: linear-gradient(to right, rgba(0,95,118,1), rgba(0,95,118,0), rgba(0,95,118,0));
+    background-image: linear-gradient(to right, rgba(0,34,82,1), rgba(0,34,82,0), rgba(0,34,82,0));
 }
 
 /* .capsule-rule {
@@ -142,7 +142,7 @@ dd {
     width: 100%;
     height: 70px;
     box-shadow: 0px 2px 6px 1px #aaaaaa;
-    background-color: #003052;
+    background-color: #002252;
 }
 
 #header-table {
@@ -202,12 +202,12 @@ dd {
     width: 110px;
     padding: 5px 0;
     background-color: #dddddd;
-    border: 0px solid #004050;
+    border: 0px solid #002252;
     border-radius: 2px;
     box-shadow: 2px 2px 6px #aaaaaa;
     text-align: center;
     font-size: 0.9rem;
-    color: #004050;
+    color: #002252;
     z-index: 1;
 }
 
@@ -243,12 +243,12 @@ dd {
     width: 110px;
     padding: 3px 0;
     background-color: #dddddd;
-    border: 0px solid #004050;
+    border: 0px solid #002252;
     border-radius: 2px;
     box-shadow: 2px 2px 6px #aaaaaa;
     text-align: center;
     font-size: 0.9rem;
-    color: #004050;
+    color: #002252;
     z-index: 1;
 }
 
@@ -280,12 +280,12 @@ aside {
 
     /* background-image: linear-gradient(to right, rgba(114,203,225,0), rgba(114,203,225,0), rgba(114,203,225,0.25), rgba(114,203,225,0.5), rgba(114,203,225,0.8), rgba(114,203,225,0.8), rgba(114,203,225,0.5), rgba(114,203,225,0.25), rgba(114,203,225,0), rgba(114,203,225,0)); */
     background-image: linear-gradient(to right, rgba(255,210,76,0), rgba(255,210,76,0), rgba(255,210,76,0.25), rgba(255,210,76,0.5), rgba(255,210,76,0.8), rgba(255,210,76,0.8), rgba(255,210,76,0.5), rgba(255,210,76,0.25), rgba(255,210,76,0), rgba(255,210,76,0));
-    border-bottom: 0px solid #004050;
+    border-bottom: 0px solid #002252;
     text-align: center;
     font-size: 1em;
     font-weight: 700;
     line-height: 1.4;
-    color: #004050;
+    color: #002252;
     letter-spacing: 0.05em;
     word-spacing: 0.1em;
 }
@@ -303,8 +303,8 @@ aside {
 
     /* background-color: #eaebe3; */
     /* background-color: #005f76; */
-    background-color: #375200;
-    border: 1px solid #375200;
+    background-color: #002252;
+    border: 1px solid #002252;
     color: #ffffff;
     box-shadow: 2px 2px 6px #aaaaaa;
 }
@@ -343,7 +343,7 @@ details summary {
 details p {
     margin: 5px -11px -5px -11px;
     padding: 15px 20px 20px 25px;
-    background-color: #375200;
+    background-color: #165200;
     border-radius: 0px 0px 6px 6px;
     color: white;
 }
@@ -351,7 +351,7 @@ details p {
 .info {
     margin: 40px -40px 30px 0;
     padding: 10px 12% 10px 20px;
-    border-left: 4px solid #005f76;
+    border-left: 4px solid #002252;
     font-weight: 500;
     font-style: oblique;
 
@@ -366,7 +366,7 @@ details p {
     height: 40px;
     width: 100%;
     margin: 0px;
-    background-color: #375200;
+    background-color: #002252;
     box-shadow: 0px -2px 6px 1px #aaaaaa;
     color: #ffffff;
     text-align: center;
