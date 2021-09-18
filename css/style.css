@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    line-height: 1.5;
+    line-height: 1.4;
     letter-spacing: -0.01em;
     word-spacing: 0.05em;
     overflow: auto;
@@ -19,7 +19,7 @@ aside,
 .navclosetext,
 .navopentext {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -48,7 +48,8 @@ h5 {
 code,
 pre {
     font-family: 'Inconsolata', 'Consolas','Courier New', monospace;
-    font-weight: 500;
+    font-size: 1.1em;
+    font-weight: 700;
     color: #990000;
     background-color: #f0f0f0;
 }
@@ -323,7 +324,7 @@ aside {
 details {
     width: 180px;
     float: right;
-    margin: 10px -20px 5px 15px;
+    margin: -3px -20px 5px 15px;
     padding: 5px 10px;
 
     /* background-color: #c4ff4c; */
@@ -417,6 +418,13 @@ details p {
 
     h5 {
         font-size: 1.1rem;
+    }
+
+    body,
+    	aside,
+    	.navclosetext,
+    	.navopentext {
+        font-size: 18px;
     }
 }
 
