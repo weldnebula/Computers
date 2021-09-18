@@ -277,15 +277,15 @@ aside {
     margin-top: 50px;
 
     /* margin: 50px 5% 0px 5% */
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 10px;
 
     /* background-image: linear-gradient(to right, rgba(114,203,225,0), rgba(114,203,225,0), rgba(114,203,225,0.25), rgba(114,203,225,0.5), rgba(114,203,225,0.8), rgba(114,203,225,0.8), rgba(114,203,225,0.5), rgba(114,203,225,0.25), rgba(114,203,225,0), rgba(114,203,225,0)); */
     background-image: linear-gradient(to right, rgba(255,210,76,0), rgba(255,210,76,0), rgba(255,210,76,0.25), rgba(255,210,76,0.5), rgba(255,210,76,0.8), rgba(255,210,76,0.8), rgba(255,210,76,0.5), rgba(255,210,76,0.25), rgba(255,210,76,0), rgba(255,210,76,0));
     text-align: center;
     font-size: 1em;
     font-weight: 700;
+    color: #453400;
     line-height: 1.4;
-    color: #1f3a53;
     letter-spacing: 0.05em;
     word-spacing: 0.1em;
 }
@@ -294,6 +294,7 @@ aside {
     margin-bottom: 0px;
     font-size: 1.4rem;
     font-weight: 500;
+    color: #7d5e00;
     letter-spacing: 0.2em;
 }
 
@@ -324,7 +325,7 @@ aside {
 details {
     width: 180px;
     float: right;
-    margin: -3px -20px 5px 15px;
+    margin: 5px -20px 5px 15px;
     padding: 5px 10px;
 
     /* background-color: #c4ff4c; */
@@ -393,8 +394,8 @@ details p {
     }
 
     aside {
-        margin-left: -50px;
-        margin-right: -50px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
 
     h1 {
@@ -465,7 +466,9 @@ details p {
     }
 
     aside {
-        margin-left: calc(600px - 50vw);
-        margin-right: calc(600px - 50vw);
+        /* margin-left: calc(630px - 50vw);
+        margin-right: calc(630px - 50vw); */
+        margin-left: -45px;
+        margin-right: -45px;
     }
 }
