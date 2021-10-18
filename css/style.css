@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -19,7 +23,7 @@ aside,
 .navclosetext,
 .navopentext {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -69,33 +73,30 @@ pre {
 }
 
 h1 {
-    margin-top: 5px;
-    margin-left: -20px;
     font-size: 1.8rem;
-    line-height: 2.5rem;
+    margin-left: -20px;
+    margin-top: 0em;
 }
 
 h2 {
-    margin: 10px 0px 15px -20px;
-    margin-top: 10px;
-    margin-bottom: 15px;
     font-size: 1.5rem;
-    line-height: 1.8rem;
+    margin-left: -20px;
+    margin-top: 0em;
 }
 
 h3 {
-    margin-top: 5px;
     font-size: 1.3rem;
+    margin-left: -20px;
+    margin-top: 0em;
 }
 
 h4 {
-    margin-top: 5px;
     font-size: 1.1rem;
     font-weight: 600;
+    margin-left: -20px;
 }
 
 h5 {
-    margin-top: 20px;
     font-size: 1rem;
     font-style: oblique;
 }
@@ -121,7 +122,7 @@ dd {
 
 .heading-rule {
     height: 2px;
-    margin: 60px 0px 0px -20px;
+    margin: 3rem 0px 0px -20px;
 
     /* background-image: linear-gradient(to right, #005f76 0%, #005f76 50%, white 100%); */
     background-image: linear-gradient(to right, rgba(31,58,83,1), rgba(31,58,83,0), rgba(31,58,83,0));
@@ -134,7 +135,7 @@ dd {
     background-image: linear-gradient(to right, white, white, #005f76);
 } */
 /* *********** HEADER ************ */
-#header {
+header {
     position: -webkit-sticky;
 
     /* Safari */
@@ -274,7 +275,7 @@ dd {
 }
 
 aside {
-    margin-top: 50px;
+    margin-top: 2.5rem;
 
     /* margin: 50px 5% 0px 5% */
     padding: 10px 10px 10px 10px;
@@ -284,7 +285,7 @@ aside {
     text-align: center;
     font-size: 1em;
     font-weight: 700;
-    color: #453400;
+    color: #5b4500;
     line-height: 1.4;
     letter-spacing: 0.05em;
     word-spacing: 0.1em;
@@ -294,7 +295,7 @@ aside {
     margin-bottom: 0px;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #7d5e00;
+    color: #947000;
     letter-spacing: 0.2em;
 }
 
@@ -350,9 +351,9 @@ details p {
 }
 
 .info {
-    margin: 40px -40px 30px 0;
+    margin: 2rem -40px 30px 0;
     padding: 10px 12% 10px 20px;
-    border-left: 4px solid #1f3a53;
+    border-left: 8px solid #113f00;
     font-weight: 500;
     font-style: oblique;
 
@@ -361,7 +362,7 @@ details p {
 }
 
 /* *********** FOOTER ************ */
-#footer {
+footer {
     position: fixed;
     bottom: 0;
     height: 40px;
@@ -375,57 +376,48 @@ details p {
 
 /* The adjustments for a viewport between 600px and 900px wide. */
 @media screen and (min-width: 600px) {
+    html {
+        font-size: 18px;
+    }
     #page-title {
         margin-bottom: 1px;
         font-size: 1.7rem;
     }
-
     #leftnavopen {
         margin-left: -46px;
     }
-
     #content {
         padding: 0px 50px 40px 50px;
     }
-
     #banner {
         width: calc(100% + 100px);
         margin-left: -50px;
     }
-
     aside {
         margin-left: -10px;
         margin-right: -10px;
     }
-
     h1 {
-        font-size: 2.0rem;
-        line-height: 2.5rem;
+        font-size: 1.9rem;
     }
-
     h2 {
         font-size: 1.7rem;
-        line-height: 1.8rem;
     }
-
     h3 {
         font-size: 1.5rem;
     }
-
     h4 {
         font-size: 1.2rem;
         font-weight: 600;
     }
-
     h5 {
         font-size: 1.1rem;
     }
-
     body,
     	aside,
     	.navclosetext,
     	.navopentext {
-        font-size: 18px;
+        font-size: 1rem;
     }
 }
 
@@ -435,19 +427,15 @@ details p {
         margin-bottom: 3px;
         font-size: 2rem;
     }
-
     #leftnav {
         display: inline-block;
     }
-
     #leftnavopen {
         display: none;
     }
-
     #content {
         width: calc(100% - 240px);
     }
-
     aside {
         background-image: linear-gradient(to right, rgba(255,210,76,0), rgba(255,210,76,0), rgba(255,210,76,0.25), rgba(255,210,76,0.5), rgba(255,210,76,0.8), rgba(255,210,76,0.8), rgba(255,210,76,0.5), rgba(255,210,76,0.25), rgba(255,210,76,0), rgba(255,210,76,0));
     }
@@ -459,12 +447,10 @@ details p {
         padding-left: calc(50% - 550px);
         padding-right: calc(50% - 550px);
     }
-
     #banner {
         width: calc(100vw - 258px);
         margin-left: calc(550px - 50vw);
     }
-
     aside {
         /* margin-left: calc(630px - 50vw);
         margin-right: calc(630px - 50vw); */
