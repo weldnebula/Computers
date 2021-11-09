@@ -143,7 +143,9 @@ header {
     top: 0;
     width: 100%;
     height: 70px;
-    box-shadow: 0px 2px 6px 1px #aaaaaa;
+
+    /* box-shadow: 0px 2px 6px 1px #aaaaaa; */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
     background-color: #1f3a53;
 }
 
@@ -179,6 +181,7 @@ header {
     width: 240px;
     padding: 20px 30px 20px 20px;
     background-color: #eeeeee;
+    box-shadow: 4px 0 6px -1px rgba(0, 0, 0, 0.2), 2px 0 4px -1px rgba(0, 0, 0, 0.1);
     overflow: auto;
     color: #000000;
     font-weight: 400;
@@ -302,13 +305,10 @@ aside {
 .capsule {
     margin: 30px 0px;
     padding: 20px 40px 10px 40px;
-
-    /* background-color: #eaebe3; */
-    /* background-color: #005f76; */
     background-color: #1f3a53;
     border: 1px solid #1f3a53;
     color: #ffffff;
-    box-shadow: 2px 2px 6px #aaaaaa;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 2px 2px 4px -1px rgba(0, 0, 0, 0.1);
 }
 
 .capsule code {
@@ -369,7 +369,9 @@ footer {
     width: 100%;
     margin: 0px;
     background-color: #1f3a53;
-    box-shadow: 0px -2px 6px 1px #aaaaaa;
+
+    /* box-shadow: 0px -2px 6px 1px #aaaaaa; */
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.2), 0 -2px 4px -1px rgba(0, 0, 0, 0.1);
     color: #ffffff;
     text-align: center;
 }
@@ -448,12 +450,10 @@ footer {
         padding-right: calc(50% - 550px);
     }
     #banner {
-        width: calc(100vw - 258px);
-        margin-left: calc(550px - 50vw);
+        width: calc(100% + 80px);
+        margin-left: -40px;
     }
     aside {
-        /* margin-left: calc(630px - 50vw);
-        margin-right: calc(630px - 50vw); */
         margin-left: -45px;
         margin-right: -45px;
     }
