@@ -51,7 +51,7 @@ h5 {
 
 code,
 pre {
-    font-family: 'Inconsolata', 'Consolas','Courier New', monospace;
+    font-family: 'Inconsolata', 'Consolas', 'Courier New', monospace;
     font-size: 1.1em;
     font-weight: 700;
     color: #990000;
@@ -102,7 +102,7 @@ h5 {
 }
 
 p {
-    margin-top: 8px;
+    margin-top: 0.5em;
 }
 
 ul {
@@ -126,7 +126,7 @@ dd {
     margin: 3rem 0px 0px -20px;
 
     /* background-image: linear-gradient(to right, #005f76 0%, #005f76 50%, white 100%); */
-    background-image: linear-gradient(to right, rgba(31,58,83,1), rgba(31,58,83,0), rgba(31,58,83,0));
+    background-image: linear-gradient(to right, rgba(31, 58, 83, 1), rgba(31, 58, 83, 0), rgba(31, 58, 83, 0));
 }
 
 /* .capsule-rule {
@@ -135,7 +135,10 @@ dd {
     margin-bottom: 20px;
     background-image: linear-gradient(to right, white, white, #005f76);
 } */
+
+
 /* *********** HEADER ************ */
+
 header {
     position: -webkit-sticky;
 
@@ -286,7 +289,7 @@ aside {
     padding: 10px 10px 10px 10px;
 
     /* background-image: linear-gradient(to right, rgba(114,203,225,0), rgba(114,203,225,0), rgba(114,203,225,0.25), rgba(114,203,225,0.5), rgba(114,203,225,0.8), rgba(114,203,225,0.8), rgba(114,203,225,0.5), rgba(114,203,225,0.25), rgba(114,203,225,0), rgba(114,203,225,0)); */
-    background-image: linear-gradient(to right, rgba(255,210,76,0), rgba(255,210,76,0), rgba(255,210,76,0.25), rgba(255,210,76,0.5), rgba(255,210,76,0.8), rgba(255,210,76,0.8), rgba(255,210,76,0.5), rgba(255,210,76,0.25), rgba(255,210,76,0), rgba(255,210,76,0));
+    background-image: linear-gradient(to right, rgba(255, 210, 76, 0), rgba(255, 210, 76, 0), rgba(255, 210, 76, 0.25), rgba(255, 210, 76, 0.5), rgba(255, 210, 76, 0.8), rgba(255, 210, 76, 0.8), rgba(255, 210, 76, 0.5), rgba(255, 210, 76, 0.25), rgba(255, 210, 76, 0), rgba(255, 210, 76, 0));
     text-align: center;
     font-size: 1em;
     font-weight: 700;
@@ -308,7 +311,7 @@ aside {
     margin: 30px 0px;
     padding: 20px 40px 10px 40px;
     background-color: #1f3a53;
-    border: 1px solid #1f3a53;
+    border: 1px solid #1f3a53;
     color: #ffffff;
     box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 2px 2px 4px -1px rgba(0, 0, 0, 0.1);
 }
@@ -360,7 +363,7 @@ details p {
     font-style: oblique;
 
     /* background-image: linear-gradient(to right, #dfff9f, white); */
-    background-image: linear-gradient(to right, rgba(223,255,159,1), rgba(223,255,159,0));
+    background-image: linear-gradient(to right, rgba(223, 255, 159, 1), rgba(223, 255, 159, 0));
 }
 
 /* *********** FOOTER ************ */
@@ -378,49 +381,63 @@ footer {
     text-align: center;
 }
 
+/****************************************************************/
+/************************ @MEDIA QUERIES ************************/
+
 /* The adjustments for a viewport between 600px and 900px wide. */
 @media screen and (min-width: 600px) {
     html {
         font-size: 18px;
     }
+
     #page-title {
         margin-bottom: 1px;
         font-size: 1.7rem;
     }
+
     #leftnavopen {
         margin-left: -46px;
     }
+
     #content {
         padding: 0px 50px 40px 50px;
     }
+
     #banner {
         width: calc(100% + 100px);
         margin-left: -50px;
     }
+
     aside {
         margin-left: -10px;
         margin-right: -10px;
     }
+
     h1 {
         font-size: 1.9rem;
     }
+
     h2 {
         font-size: 1.7rem;
     }
+
     h3 {
         font-size: 1.5rem;
     }
+
     h4 {
         font-size: 1.2rem;
         font-weight: 600;
     }
+
     h5 {
         font-size: 1.1rem;
     }
+
     body,
-    	aside,
-    	.navclosetext,
-    	.navopentext {
+    aside,
+    .navclosetext,
+    .navopentext {
         font-size: 1rem;
     }
 }
@@ -431,17 +448,21 @@ footer {
         margin-bottom: 3px;
         font-size: 2rem;
     }
+
     #leftnav {
         display: inline-block;
     }
+
     #leftnavopen {
         display: none;
     }
+
     #content {
         width: calc(100% - 240px);
     }
+
     aside {
-        background-image: linear-gradient(to right, rgba(255,210,76,0), rgba(255,210,76,0), rgba(255,210,76,0.25), rgba(255,210,76,0.5), rgba(255,210,76,0.8), rgba(255,210,76,0.8), rgba(255,210,76,0.5), rgba(255,210,76,0.25), rgba(255,210,76,0), rgba(255,210,76,0));
+        background-image: linear-gradient(to right, rgba(255, 210, 76, 0), rgba(255, 210, 76, 0), rgba(255, 210, 76, 0.25), rgba(255, 210, 76, 0.5), rgba(255, 210, 76, 0.8), rgba(255, 210, 76, 0.8), rgba(255, 210, 76, 0.5), rgba(255, 210, 76, 0.25), rgba(255, 210, 76, 0), rgba(255, 210, 76, 0));
     }
 }
 
@@ -451,10 +472,12 @@ footer {
         padding-left: calc(50% - 550px);
         padding-right: calc(50% - 550px);
     }
+
     #banner {
         width: calc(100% + 80px);
         margin-left: -40px;
     }
+
     aside {
         margin-left: -45px;
         margin-right: -45px;
